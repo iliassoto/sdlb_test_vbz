@@ -1,0 +1,1 @@
+java --add-exports java.base/sun.nio.ch=ALL-UNNAMED -Dlog4j.configuration=file:.\log4j.properties -cp target\Test_VBZ_Server-1.0-jar-with-dependencies.jar io.smartdatalake.app.LocalSmartDataLakeBuilder -c config -f transfer -n Test_app_name --state-path state
